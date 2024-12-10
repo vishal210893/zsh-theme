@@ -277,7 +277,7 @@ prompt_k8s() {
 
   # If both the cluster and namespace are available, display them
   if [[ -n "$k8s_cluster" ]]; then
-    local k8s_display="☸ $k8s_cluster"
+    local k8s_display="⛅️ $k8s_cluster"
 
     # Append the namespace to the display if available
     if [[ -n "$k8s_namespace" ]]; then
